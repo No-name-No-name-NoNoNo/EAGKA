@@ -155,9 +155,6 @@ The following table shows the computational cost of key cryptographic primitives
 
 > **Note**: These timing measurements provide a reference for computational complexity analysis and energy consumption estimation in UANET environments. Actual performance may vary depending on hardware specifications and implementation optimizations.
 
-## License
-
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
 ---
 
