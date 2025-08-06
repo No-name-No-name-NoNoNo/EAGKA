@@ -389,7 +389,7 @@ void startSimulation(const std::string& linkQuality) {
 	NS_LOG_INFO("Data successfully written");
 	// ------------- End -----------------
 
-	const char* cacheDir = "/home/ns-allinone-3.25/ns-3.25/scratch/REGKA/results_cache";
+	const char* cacheDir = "./results_cache";
 	struct stat st;
 	if (stat(cacheDir, &st) != 0) {
 		mkdir(cacheDir, 0777);
@@ -416,7 +416,7 @@ int main(int argc, char *argv[]) {
 	LogComponentEnable("wifi-adhoc-UAV-experiment", LOG_LEVEL_INFO);
 	LogComponentEnable("wifi-adhoc-app", LOG_LEVEL_INFO);
 	
-	const char* logDir = "/home/ns-allinone-3.25/ns-3.25/scratch/REGKA/Log";
+	const char* logDir = "./Log";
 	struct stat st;
 	if (stat(logDir, &st) != 0) {
 		mkdir(logDir, 0777);
